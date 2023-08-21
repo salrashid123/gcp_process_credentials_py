@@ -1,0 +1,4 @@
+httplib2
+google-auth
+google-cloud-storage
+gcp_process_credentials==0.0.1
