@@ -12,14 +12,15 @@ with io.open(readme_filename, encoding='utf-8') as readme_file:
 
 setuptools.setup(
     name="gcp_process_credentials",
-    version="0.0.1",
+    version="0.0.2",
     author="Sal Rashid",
     author_email="salrashid123@gmail.com",
     description="Python ProcessCredentials for Google Cloud Platform",
     long_description=readme,
+    long_description_content_type='text/markdown',
     url="https://github.com/salrashid123/gcp_process_credentials_py",
     install_requires=[
-          'google-auth',
+          'google-auth>2.6.3',
     ],
     packages=setuptools.find_packages(),
     classifiers=[

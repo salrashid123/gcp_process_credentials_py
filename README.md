@@ -60,6 +60,10 @@ be valid JSON in the form
 
 For a quick example in python, the following will read a token file and use that for credentials:
 
+```bash
+pip install google-auth gcp-process-credentials
+```
+
 ```python
 from gcp_process_credentials.credentials import ProcessCredentials
 
